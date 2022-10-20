@@ -1,0 +1,122 @@
+.navbar-brand img {
+    width: 140px;
+    height: 100px;
+}
+nav.navbar{
+    height: 56px;
+}
+div.nav{
+    display: flex;
+    justify-content: flex-end;
+}
+div ul li a{
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    text-decoration: none;
+    color: rgb(25, 25, 25);
+    font-style: normal;
+    font-weight: 400;
+    size: 16px;
+}
+div ul li{
+    padding: 8px;
+}
+div.left-nav{
+    margin-right: 470px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(25, 25, 25);
+    font-style: normal;
+    font-weight: 400;
+    size: 14px;
+}
+div.card2{
+    margin-left: 8px;
+}
+div.image-right{
+    display: flex;
+    padding-top: 5px;
+}
+.image-right a img{
+    color: rgb(25, 25, 25);
+    width: 20px;
+}
+header.top-header{
+    padding-top: 100px;
+    text-align: left;
+    margin-right: 110px;
+}
+header.top-header h1{
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000000;
+    padding-left: 50px;
+}
+main{
+    background-color: #EEEEEE;
+    height: 600px;
+}
+main{
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 39px;
+    color: #000000;
+}
+main div.left-text{
+    padding-left: 50px;
+}
+main div.header-button{
+    padding-left: 50px;
+}
+button{
+    background-color: #76B900;
+    color: #ffffff;
+    border: none;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    text-align: center;
+    padding: 13px 20px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+button:hover{
+    background-color: #76D300;
+    color: #ffffff;
+}
+main div.card1{
+    padding-top: 100px;
+    background-color: #EEEEEE;
+    border: none;
+}
+main div.card2{
+    padding-top: 100px;
+    background-color: #EEEEEE;
+    border: none;
+}
+img.card-img-top{
+    margin-right: 60px;
+}
+div.card2{
+   padding-top: 100px; 
+}
+div.col-sm-3{
+    width: 320px;
+}
+
+/* tablet view */
+@media  screen and (min-width:481px){
+    div.nav{
+        background-color: white;
+        width: 350px;
+    }
+   
+}
+div.navbar-collapse{
+    background: white;
+    width: 10px !important;
+}
